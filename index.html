@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>plant Store</title>
+        <link rel="stylesheet" href="./libs/bt5/css/bootstrap.min.css">       
+        <link rel="stylesheet" href="./farm.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+<body >
+  <header class="masthead">
+    <nav class="navbar navbar-expand-md navbar-light border-bottom ">
+      <a class="navbar-brand abs pl-4 font-weight-bold" href="#">Plants</a>
+      <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#collapsingNavbar" aria-expanded="false">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="navbar-collapse collapse" id="collapsingNavbar" >
+        <ul class="navbar-nav ml-auto active ">
+          <li class="nav-item pr-4">
+              <a class="nav-link " href="#"  data-toggle="modal">Home</a>
+         </li> 
+         <li class="nav-item pr-4">
+          <a class="nav-link" href=""  data-toggle="modal">PLants</a>
+     </li> 
+     <li class="nav-item pr-4">
+      <a class="nav-link" href=""  data-toggle="modal">About Us</a>
+ </li> 
+      </ul>
+      </div>
+    </nav>
+    <div class="gum p-5 ">
+        <h1 class="display-4 font-weight-bold">like pepole,plants responde <br>to extra attention</h1>
+        <p class="lead">Plants and tree are intimately connected with our lifeand<br>well-being. It boons and benefits derived from them are too<br>many to count. </p>
+        <!-- <img src="./img/bg4.png" class="ml-5 w-50"> -->
+        <a class="btn bg-success btn-lg  text-light" href="#" role="button">Shop Now!</a>
+      </div>
+    </header>
+    <script src="./libs/bt5/js/bootstrap.bundle.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+    <script src="./jQuery/jquery-3.4.1.min.js"></script>
+    <script>
+    $('.navbar-nav .nav-item').on('click', function (e) {
+      $(this).addClass('acv');
+      $(this).siblings().removeClass('acv');
+  })</script>
+    </body>
+    </html>

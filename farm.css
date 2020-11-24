@@ -1,0 +1,19 @@
+.masthead {
+    text-align: left;
+    background-image: url(./img/bg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+    display: block;
+    padding-bottom: 37%;
+}
+.bg-success{
+    background-color: #4caf50!important;
+}
+.rtl{
+    float: right;
+}
+.acv{
+    border-bottom: 1px solid #4caf50  ;
+}
